@@ -26,3 +26,16 @@ fun withDefaultParameter(firstName: String = "asep", lastName: String = "banyak"
     println("== withDefaultParameter ==")
     println("Hello, $firstName $lastName you are $age years old")
 }
+
+fun withReturn(panjang: Int, lebar: Int): int {
+    return println(panjang * lebar)
+}
+
+fun main() {
+    withoutParameter()
+    withParameter("Hasan")
+    withNamedArgument(firstName = "Hasan", lastName = "Ridlo", age = 20)
+    withDefaultParameter()
+    withReturn(5, 10)
+
+}
