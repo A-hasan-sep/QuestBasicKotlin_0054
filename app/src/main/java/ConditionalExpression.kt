@@ -13,4 +13,17 @@ fun ConditionalStatement() {
     } else {
         println("number is negative")
     }
+
+    //when
+    val day = 1
+    when (day) {
+        1 -> println("senin")
+        2 -> println("selasa")
+        3 -> println("rabu")
+        4 -> println("kamis")
+        5 -> println("jumat")
+        6 -> println("sabtu")
+        7 -> println("minggu")
+        else -> println("invalid day")
+    }
 }
