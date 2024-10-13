@@ -26,4 +26,13 @@ fun ConditionalStatement() {
         7 -> println("minggu")
         else -> println("invalid day")
     }
+
+    //try-catch
+    val value = "10"
+    try {
+        val result = value.toInt()
+        println("result: $result")
+    } catch (e: NumberFormatException) {
+        println("invalid number")
+    }
 }
