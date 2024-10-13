@@ -27,7 +27,7 @@ fun withDefaultParameter(firstName: String = "asep", lastName: String = "banyak"
     println("Hello, $firstName $lastName you are $age years old")
 }
 
-fun withReturn(panjang: Int, lebar: Int): int {
+fun withReturn(panjang: Int, lebar: Int) {
     return println(panjang * lebar)
 }
 
